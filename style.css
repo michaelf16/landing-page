@@ -1,0 +1,48 @@
+/* Fonts, colors, backgrounds */
+header,
+footer,
+.main-banner{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.banner-title{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.nav{
+    font-size: 24px;
+}
+
+.banner-button,
+.call-to-action{
+    background-color: #3882f6;
+    color: white;
+}
+
+.c2-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.content-3{
+    background-color: #e5e7eb;
+}
+
+.c3-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+/* Fonts, colors, backgrounds ending*/
+
+/* Styling */
+
+body{
+    display: flex;
+    flex-direction: column;
+}
