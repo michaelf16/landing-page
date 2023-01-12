@@ -10,12 +10,15 @@
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
-    margin-left: auto;
-    
+    margin-left: auto;    
 }
 
-
-
+img[src*="kayak"] {
+    height:60%;
+    width: 90%;
+    border-radius: 10%;
+    border: 2px solid #3882f6;
+}
 
 /* Fonts, colors, backgrounds */
 header,
@@ -58,8 +61,9 @@ footer,
 }
 
 .banner-image{
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
+   
 }
 
 .header-logo{
@@ -91,8 +95,6 @@ body{
     justify-content: space-between;
 }
 
-
-
 ul{
     list-style-type: none;
     margin:0;
@@ -108,12 +110,11 @@ a{
     padding: 10px;
 }
 
-.main-banner{
+.banner-container{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    padding-top: 50px;
     gap: 70px;
+    padding-top: 50px;
 }
 
 .banner-button{
@@ -121,3 +122,38 @@ a{
     padding: 6px;
     border-radius: 20%;
 }
+
+.banner-image{
+    padding-bottom: 20px;
+}
+
+.c2-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.c2-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.c3-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.c3-author{
+    text-align: end;
+}
+
