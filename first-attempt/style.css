@@ -3,24 +3,24 @@
 .content-2,
 .c3-text,
 .c3-author,
-.cta-container{
+.cta-container {
     max-width: 1460px;
     width: 100%;
     margin: 0 auto;
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
-    margin-left: auto;    
+    margin-left: auto;
 }
 
 img[src*="kayak"] {
-    height:60%;
+    height: 60%;
     width: 90%;
     border-radius: 10%;
     border: 2px solid #3882f6;
 }
 
-.cta-title{
+.cta-title {
     font-size: 24px;
     font-weight: bold;
 }
@@ -30,121 +30,127 @@ img[src*="kayak"] {
 /* Fonts, colors, backgrounds */
 header,
 footer,
-.main-banner{
+.main-banner {
     background-color: #1f2937;
     color: #f9faf8;
 }
 
-.banner-title{
+.banner-title {
     font-size: 48px;
-    font-weight:bolder;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
-.nav{
+.nav {
     font-size: 24px;
 }
 
 .banner-button,
-.call-to-action{
+.call-to-action {
     background-color: #3882f6;
     color: white;
 }
 
-.c2-title{
+.c2-title {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
 }
 
-.content-3{
+.content-3 {
     background-color: #e5e7eb;
 }
 
-.c3-text{
+.c3-text {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
 }
 
-.banner-image{
+.banner-image {
     width: 400px;
     height: 200px;
-   
+
 }
 
-.header-logo{
+.header-logo {
     font-size: 24px;
     font-weight: bold;
     padding: 10px;
 }
+
 /* Fonts, colors, backgrounds ending*/
 
 /* Styling */
 
-body{
+body {
     display: flex;
     flex-direction: column;
-    margin:0;
-    padding: 0;
-}
-
-
-.header{
-    display: flex;
-    justify-content: space-between;
     margin: 0;
     padding: 0;
 }
 
-.header-container{
+
+.header {
     display: flex;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    border: 3px solid white;
 }
 
-ul{
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid black;
+}
+
+ul {
     list-style-type: none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
-.nav{
+
+.nav {
     display: flex;
     gap: 10px;
     padding: 10px;
+    border: 4px solid green;
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: space-between;
     gap: 70px;
     padding-top: 50px;
 }
 
-.banner-button{
+.banner-button {
     margin-top: 20px;
     padding: 6px;
     border-radius: 20%;
 }
 
-.banner-image{
+.banner-image {
     padding-bottom: 20px;
 }
 
-.c2-container{
+.c2-container {
     display: flex;
     height: 100%;
     width: 100%;
 }
 
-.c2-title{
+.c2-title {
     text-align: center;
     padding-top: 20px;
 }
-.info{
+
+.info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,18 +159,18 @@ a{
     padding: 25px;
 }
 
-.c3-container{
+.c3-container {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 10em;
     padding-right: 10em;
 }
 
-.c3-author{
+.c3-author {
     text-align: end;
 }
 
-.call-to-action{
+.call-to-action {
     margin-right: 80px;
     margin-left: 80px;
     margin-top: 100px;
@@ -176,14 +182,14 @@ a{
 
 }
 
-.cta-container{
+.cta-container {
     display: flex;
     flex-direction: column;
     flex-grow: 2;
 
 }
 
-.footer{
+.footer {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
